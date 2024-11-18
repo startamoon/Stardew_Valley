@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Stardew;
+    src: url(fonts/Stardew\ Valley\ Regular.ttf);
+}
+
+@font-face {
+    font-family: StardewCAPS;
+    src: url(fonts/Stardew\ Valley\ ALL\ CAPS.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Farmhouse;
+    src: url(fonts/Farmhouse\ Goodness.ttf);
+}
+
+body{
+    background: url(background_image/3.jpg) rgba(0,0,0,0.3);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.navbar-brand{
+    font-family: Oswald;
+}
+
+.offcanvas-header{
+    font-family: Oswald;
+}
+
+.navbar-nav{
+    font-family: Oswald;
+}
+
+.search h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(15, 52, 100);
+}
+
+.search form {
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.search button {
+    background-color: rgb(15, 52, 100);
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Stardew;
+    src: url(fonts/Stardew\ Valley\ Regular.ttf);
+}
+
+@font-face {
+    font-family: StardewCAPS;
+    src: url(fonts/Stardew\ Valley\ ALL\ CAPS.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Farmhouse;
+    src: url(fonts/Farmhouse\ Goodness.ttf);
+}
+
+body{
+    background: url(background_image/9526f08c1e26dcb4f6b9afd9d76af8ab.png) rgba(0,0,0,0.3);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.navbar-brand{
+    font-family: Oswald;
+}
+
+.offcanvas-header{
+    font-family: Oswald;
+}
+
+.navbar-nav{
+    font-family: Oswald;
+}
+
+.fundo{
+    background-position: 50%;
+    margin-top: 50px;
+    background-color: #ffffff78;
+    border: 5px solid #012e75;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.col-12 > h1{
+    font-family: Oswald;
+    color: #ffffff;
+    text-align: center;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.card .card-img-top{
+    background-color: #1a1c93a1 !important;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    /*height: 165px;*/
+}
+
+.card-body{
+    background-color: #1a1c93a1 !important;
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card-body .card-text h5{
+    color: white;
+}
+
+.card-body > h5{
+    font-family: Oswald;
+    color: white;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.card-body > a{
+    font-family: Oswald;
+    text-decoration: none;
+    color: white;
+}
+
+.card-body > a:hover{
+    color: rgba(255, 255, 255, 0.63);
+}
+

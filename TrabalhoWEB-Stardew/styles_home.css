@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Stardew;
+    src: url(fonts/Stardew\ Valley\ Regular.ttf);
+}
+
+@font-face {
+    font-family: StardewCAPS;
+    src: url(fonts/Stardew\ Valley\ ALL\ CAPS.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Farmhouse;
+    src: url(fonts/Farmhouse\ Goodness.ttf);
+}
+
+body{
+    background: url(background_image/amfzanxbvw621.jpg) rgba(0,0,0,0.3);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(10px);
+    }
+}
+
+.navbar-brand{
+    font-family: Oswald;
+}
+
+.offcanvas-header{
+    font-family: Oswald;
+}
+
+.navbar-nav{
+    font-family: Oswald;
+}
+
+.line{    
+    height: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: 1px solid white;*/
+    border-radius: 10px;
+}
+
+.search h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Oswald;
+    color: white;
+}
+
+.d-flex{
+    width: 550px;
+}
+
+input.form-control{
+    font-family: Oswald;
+    color:#282729;
+}
+
+.line2{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: 1px solid white;*/
+    border-radius: 10px;
+}
